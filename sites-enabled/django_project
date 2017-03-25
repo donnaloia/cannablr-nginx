@@ -21,7 +21,7 @@ server {
 
     location / {
 
-        proxy_pass cannablrv2-parentserver-1.kontena.local:8000;
+        proxy_pass http://cannablrv2-parentserver-1.kontena.local:8000;
 
         proxy_set_header Host $host;
 
